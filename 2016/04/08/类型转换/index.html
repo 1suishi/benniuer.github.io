@@ -4,27 +4,27 @@
   <meta charset="utf-8">
   
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <title>true and false | 胡言乱语</title>
+  <title>类型转换 | 胡言乱语</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="javaScript 中的 true 和 false
+  <meta name="description" content="js中使用的类型转换
 
-为true的值12true      [], &amp;#123;&amp;#125;, &amp;quot; &amp;quot;
-为false的值12false    &amp;apos;&amp;apos;, null, undefined, 0, NaN">
+String 2 num123+&amp;quot;123&amp;quot;     // 123+&amp;quot;123abc&amp;quot;   // Num  parseInt(&amp;quot;123abc&amp;quot;)  // 123
+num 2 String1&amp;apos;&amp;apos;+123  // &amp;quot;123&amp;quot;">
 <meta property="og:type" content="article">
-<meta property="og:title" content="true and false">
-<meta property="og:url" content="http://yoursite.com/2016/04/08/true-and-false/index.html">
+<meta property="og:title" content="类型转换">
+<meta property="og:url" content="http://yoursite.com/2016/04/08/类型转换/index.html">
 <meta property="og:site_name" content="胡言乱语">
-<meta property="og:description" content="javaScript 中的 true 和 false
+<meta property="og:description" content="js中使用的类型转换
 
-为true的值12true      [], &amp;#123;&amp;#125;, &amp;quot; &amp;quot;
-为false的值12false    &amp;apos;&amp;apos;, null, undefined, 0, NaN">
-<meta property="og:updated_time" content="2016-04-08T11:20:31.941Z">
+String 2 num123+&amp;quot;123&amp;quot;     // 123+&amp;quot;123abc&amp;quot;   // Num  parseInt(&amp;quot;123abc&amp;quot;)  // 123
+num 2 String1&amp;apos;&amp;apos;+123  // &amp;quot;123&amp;quot;">
+<meta property="og:updated_time" content="2016-04-08T11:36:50.641Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="true and false">
-<meta name="twitter:description" content="javaScript 中的 true 和 false
+<meta name="twitter:title" content="类型转换">
+<meta name="twitter:description" content="js中使用的类型转换
 
-为true的值12true      [], &amp;#123;&amp;#125;, &amp;quot; &amp;quot;
-为false的值12false    &amp;apos;&amp;apos;, null, undefined, 0, NaN">
+String 2 num123+&amp;quot;123&amp;quot;     // 123+&amp;quot;123abc&amp;quot;   // Num  parseInt(&amp;quot;123abc&amp;quot;)  // 123
+num 2 String1&amp;apos;&amp;apos;+123  // &amp;quot;123&amp;quot;">
   
     <link rel="alternative" href="/atom.xml" title="胡言乱语" type="application/atom+xml">
   
@@ -210,11 +210,11 @@
 	</div>
 </nav>
 
-      <div class="body-wrap"><article id="post-true-and-false" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-类型转换" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2016/04/08/true-and-false/" class="article-date">
-  	<time datetime="2016-04-08T07:04:36.000Z" itemprop="datePublished">2016-04-08</time>
+      <a href="/2016/04/08/类型转换/" class="article-date">
+  	<time datetime="2016-04-08T11:21:35.000Z" itemprop="datePublished">2016-04-08</time>
 </a>
     </div>
   
@@ -227,7 +227,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      true and false
+      类型转换
     </h1>
   
 
@@ -236,7 +236,7 @@
       <div class="article-info article-info-post">
         
 	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/js/">js</a></li></ul>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/js/">js</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/点点/">点点</a></li></ul>
 	</div>
 
         
@@ -248,10 +248,11 @@
     <div class="article-entry" itemprop="articleBody">
       
         <blockquote>
-<p> javaScript 中的 true 和 false</p>
+<p>js中使用的类型转换</p>
 </blockquote>
-<h2 id="为true的值"><a href="#为true的值" class="headerlink" title="为true的值"></a>为true的值</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">true</span><br><span class="line">      [], &#123;&#125;, &quot; &quot;</span><br></pre></td></tr></table></figure>
-<h2 id="为false的值"><a href="#为false的值" class="headerlink" title="为false的值"></a>为false的值</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">false</span><br><span class="line">    &apos;&apos;, null, undefined, 0, NaN</span><br></pre></td></tr></table></figure>
+<h2 id="String-2-num"><a href="#String-2-num" class="headerlink" title="String 2 num"></a>String 2 num</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">+&quot;123&quot;     // 123</span><br><span class="line">+&quot;123abc&quot;   // Num  </span><br><span class="line">parseInt(&quot;123abc&quot;)  // 123</span><br></pre></td></tr></table></figure>
+<h2 id="num-2-String"><a href="#num-2-String" class="headerlink" title="num 2 String"></a>num 2 String</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&apos;&apos;+123  // &quot;123&quot;</span><br></pre></td></tr></table></figure>
+
       
     </div>
     
@@ -260,18 +261,9 @@
     
 <nav id="article-nav">
   
-    <a href="/2016/04/08/类型转换/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption"><</strong>
-      <div class="article-nav-title">
-        
-          类型转换
-        
-      </div>
-    </a>
   
-  
-    <a href="/2016/04/07/Markdown/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Markdown</div>
+    <a href="/2016/04/08/true-and-false/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">true and false</div>
       <strong class="article-nav-caption">></strong>
     </a>
   
@@ -306,7 +298,7 @@
 
 <div class="duoshuo">
 	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="true-and-false" data-title="true and false" data-url="http://yoursite.com/2016/04/08/true-and-false/"></div>
+	<div class="ds-thread" data-thread-key="类型转换" data-title="类型转换" data-url="http://yoursite.com/2016/04/08/类型转换/"></div>
 	<!-- 多说评论框 end -->
 	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">

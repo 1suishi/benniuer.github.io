@@ -79,7 +79,7 @@
 						<li>Links</li>
 						
 						
-						<li>About</li>
+						<li>Über</li>
 						
 					</ul>
 				</div>
@@ -116,7 +116,7 @@
 				
 				<section class="switch-part switch-part2">
 					<div class="widget tagcloud" id="js-tagcloud">
-						<a href="/tags/js/" style="font-size: 20px;">js</a> <a href="/tags/点点/" style="font-size: 10px;">点点</a> <a href="/tags/随笔/" style="font-size: 10px;">随笔</a>
+						<a href="/tags/es6/" style="font-size: 10px;">es6</a> <a href="/tags/js/" style="font-size: 20px;">js</a> <a href="/tags/require-js/" style="font-size: 10px;">require.js</a> <a href="/tags/点点/" style="font-size: 10px;">点点</a> <a href="/tags/随笔/" style="font-size: 10px;">随笔</a>
 					</div>
 				</section>
 				
@@ -202,6 +202,187 @@
 
       <div class="body-wrap">
   
+    <article id="post-regExp" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/04/26/regExp/" class="article-date">
+  	<time datetime="2016-04-26T03:32:36.000Z" itemprop="datePublished">2016-04-26</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/04/26/regExp/">regExp</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="字符串方法"><a href="#字符串方法" class="headerlink" title="字符串方法"></a>字符串方法</h2><pre><code>字符串对象共有4个方法，可以使用正则表达式：match()、replace()、search()和split()。
+</code></pre><h2 id="正则表达式方法"><a href="#正则表达式方法" class="headerlink" title="正则表达式方法"></a>正则表达式方法</h2><pre><code>compile        编译正则表达式
+exec        检索字符串中指定的值。返回找到的值，并确定其位置
+test        检索字符串中指定的值。返回 true 或 false。
+</code></pre>
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/js/">js</a></li></ul>
+	</div>
+
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-es6-let" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/04/25/es6-let/" class="article-date">
+  	<time datetime="2016-04-25T08:45:59.000Z" itemprop="datePublished">2016-04-25</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/04/25/es6-let/">es6/let</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="let"><a href="#let" class="headerlink" title="let"></a>let</h2>
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/es6/">es6</a></li></ul>
+	</div>
+
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-require-js" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/04/18/require-js/" class="article-date">
+  	<time datetime="2016-04-18T07:51:53.000Z" itemprop="datePublished">2016-04-18</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/04/18/require-js/">require.js</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <blockquote>
+<p>  require.js 是 AMD 规范实现</p>
+</blockquote>
+<h3 id="入口"><a href="#入口" class="headerlink" title="入口"></a>入口</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script data-main=&quot;scripts/main.js&quot; src=&quot;scripts/require.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="baseUrl"><a href="#baseUrl" class="headerlink" title="baseUrl"></a>baseUrl</h3><p>如果没有显式指定config及data-main，则默认的baseUrl为<strong>包含RequireJS</strong>的那个<strong><em>HTML</em></strong>页面的所属目录。<br>如果用了data-main属性，则该路径就变成baseUrl。</p>
+<h3 id="定义模块"><a href="#定义模块" class="headerlink" title="定义模块"></a>定义模块</h3><blockquote>
+<p>  简单值对<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">define(&#123;</span><br><span class="line">    color: &quot;black&quot;,</span><br><span class="line">    size: &quot;unisize&quot;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p>
+<p>  无依赖函数式<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">define(function () &#123;</span><br><span class="line">   return &#123;</span><br><span class="line">       color: &quot;black&quot;,</span><br><span class="line">       size: &quot;unisize&quot;</span><br><span class="line">   &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/require-js/">require.js</a></li></ul>
+	</div>
+
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
     <article id="post-类型转换" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -231,7 +412,7 @@
         <blockquote>
 <p>js中使用的类型转换</p>
 </blockquote>
-<h2 id="String-2-num"><a href="#String-2-num" class="headerlink" title="String 2 num"></a>String 2 num</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">+&quot;123&quot;     // 123</span><br><span class="line">+&quot;123abc&quot;   // Num  </span><br><span class="line">parseInt(&quot;123abc&quot;)  // 123</span><br></pre></td></tr></table></figure>
+<h2 id="String-2-num"><a href="#String-2-num" class="headerlink" title="String 2 num"></a>String 2 num</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">+&quot;123&quot;     // 123</span><br><span class="line">+&quot;123abc&quot;   // NaN  </span><br><span class="line">parseInt(&quot;123abc&quot;)  // 123</span><br></pre></td></tr></table></figure>
 <h2 id="num-2-String"><a href="#num-2-String" class="headerlink" title="num 2 String"></a>num 2 String</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&apos;&apos;+123  // &quot;123&quot;</span><br></pre></td></tr></table></figure>
 
       
@@ -323,218 +504,10 @@
 
 
   
-    <article id="post-Markdown" class="article article-type-post" itemscope itemprop="blogPost">
   
-    <div class="article-meta">
-      <a href="/2016/04/07/Markdown/" class="article-date">
-  	<time datetime="2016-04-07T11:24:18.000Z" itemprop="datePublished">2016-04-07</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/04/07/Markdown/">Markdown</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="Markdown基本语法"><a href="#Markdown基本语法" class="headerlink" title="Markdown基本语法"></a>Markdown基本语法</h1><blockquote>
-<pre><code>标题
-</code></pre><h1 id="只要在这段文字前加-号即可。"><a href="#只要在这段文字前加-号即可。" class="headerlink" title="只要在这段文字前加 # 号即可。"></a>只要在这段文字前加 # 号即可。</h1></blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br></pre></td></tr></table></figure>
-<hr>
-<blockquote>
-<pre><code>粗体
-</code></pre><p>  <strong>将需要设置为斜体的文字两端使用2个“*”或者“_”夹起来</strong></p>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">**粗体**</span><br></pre></td></tr></table></figure>
-<hr>
-<blockquote>
-<pre><code>斜体
-</code></pre><p><em>将需要设置为斜体的文字两端使用1个“</em>”或者“_”夹起来*</p>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">*斜体*</span><br></pre></td></tr></table></figure>
-<hr>
-<blockquote>
-<pre><code>代码
-</code></pre><p>将需要设置为斜体的文字两端使用3个“`”夹起来</p>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">var name = &quot;markdown&quot;</span><br></pre></td></tr></table></figure>
-<hr>
-<blockquote>
-<pre><code>列表
-</code></pre><ul>
-<li>无序列表使用 *、+ 或着 - 作为列表标记</li>
-</ul>
-</blockquote>
-<hr>
-<blockquote>
-<pre><code>链接
-</code></pre></blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">This is [Baidu](http://www.baidu.com) inline link.</span><br></pre></td></tr></table></figure>
-<p>This is <a href="http://www.baidu.com" target="_blank" rel="external">Baidu</a> inline link.</p>
-<blockquote>
-<p>图片</p>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">This is ![头像](/img/avator.jpg)</span><br></pre></td></tr></table></figure>
-<p>This is <img src="/img/avator.jpg" alt="头像"></p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-My-New-Post" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/04/07/My-New-Post/" class="article-date">
-  	<time datetime="2016-04-07T08:26:41.000Z" itemprop="datePublished">2016-04-07</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/04/07/My-New-Post/">My New Post</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="hexo-常用命令"><a href="#hexo-常用命令" class="headerlink" title="hexo 常用命令"></a>hexo 常用命令</h2><h3 id="提交"><a href="#提交" class="headerlink" title="提交"></a>提交</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
-<h3 id="部署到github"><a href="#部署到github" class="headerlink" title="部署到github"></a>部署到github</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
-<h3 id="添加新文章"><a href="#添加新文章" class="headerlink" title="添加新文章"></a>添加新文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"your artical name"</span></span><br></pre></td></tr></table></figure>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/js/">js</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/随笔/">随笔</a></li></ul>
-	</div>
-
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/04/05/hello-world/" class="article-date">
-  	<time datetime="2016-04-05T09:31:34.578Z" itemprop="datePublished">2016-04-05</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/04/05/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
+    <nav id="page-nav">
+      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
+    </nav>
   
 </div>
       <footer id="footer">
